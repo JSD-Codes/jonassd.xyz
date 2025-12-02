@@ -1,0 +1,15 @@
+.backbutton{
+display: inline;
+color: #ffffff;
+background-color: #04135e;
+}
+.playbutton{
+background-color: blue;
+color:white;
+}
+
+.gamediv{
+    border:2px;
+    background-color: gray;
+    width: 300px;
+}

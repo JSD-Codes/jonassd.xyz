@@ -1,0 +1,18 @@
+.linkbutton{
+display: inline;
+color: #ffffff;
+background-color: #04135e;
+}
+.playbutton{
+background-color: blue;
+color:white;
+}
+
+.gamediv{
+    border:2px;
+    background-color: Grey;
+    width: 300px;
+}
+.desc{
+    width: 300px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<title>JSD Landing Page</title>
+<meta charset=utf-8 />
+<meta name=viewport content='width=device-width' />
+<meta name=author content='Jonas Spence Dobias' />
+
+
+<!-- Include Stylesheet -->
+<link rel='stylesheet' type='text/css' href='main.css'>
+
+<!-- Include Favicon -->
+<link rel='icon' type='image/x-icon' href='JSDGames.png'>
+
+<!-- Include jQuery core -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Include jQuery UI -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"></script>
+
+<!-- Javascript/JQuery -->
+<script>
+$(document).ready(function() {
+$('#tabs').tabs({
+active: 0
+});
+
+
+});
+
+
+
+
+</script>
+
+<!-- Page-Specific CSS -->
+<style>
+
+.desc{
+width:300px;
+}
+.gamediv{
+border:2px;
+background-color: gray;
+width: 300px;
+}
+.linkbutton{
+display: inline;
+color: #ffffff;
+background-color: #04135e;
+}
+#swords{
+margin-left:10%
+}
+
+#crowntext{
+margin-left:10%
+}
+</style>
+
+</head>
+<body>
+
+<div id="tabs">
+<ul>
+<li><a href="#fragment-1">Home</a></li>
+<li><a href="#fragment-2">Games</a></li>
+<li><a href="#fragment-3">About</a></li>
+<li><a href="#fragment-4">Contact Me</a></li>
+</ul>
+
+<div id="fragment-1">
+<img src='JSDGames.png' />
+<p>I'm Jonas and I made this website because coding is a hobby of mine. Some things I like include coding, gaming, and reading.</p>
+</div>
+
+
+<div id="fragment-2">
+<div class=gamediv id = getthecrown>
+<h2 id=crowntext>Get the crown</h2>
+<br>
+<img id=swords src=swords.png />
+<p class=desc >A small text-based game played with window popups where you must infiltrate the enemy castle and take back the stolen crown.</p>
+
+<a href="https://jonassd.xyz/games/GetTheCrown" >
+<button class=playbutton id=crownbutton >Play</button></a>
+</div>
+<div class=gamediv id=superfighter>
+<h2 id=fightertext>Super Fighter</h2>
+<br>
+<p class=desc>A text-based figthing simulator with EarthBound-like controls. (Contact me with name suggestions!)</p>
+<a href="https://jonassd.xyz/games/Super_Fighter"><button class=playbutton id=fighterbutton>Play</button></a>
+</div>
+<a href="https://jonassd.xyz/games" >
+<button class=linkbutton >To Games Page</button></a>
+</div>
+
+<div id="fragment-3">
+<p>This is a fairly simple website I made as a little project. I hope you like it! Feel free to use any of my assets from this site.</p>
+</div>
+
+<div id="fragment-4">
+<!-- form.123formbuilder.com script begins here -->
+<script type="text/javascript" defer src="https://form.123formbuilder.com/embed/6878594.js" data-role="form" data-default-width="800px" data-custom-vars="hasEmbedFormStyle=1&hasTransparentBg=1"></script>
+<!-- form.123formbuilder.com script ends here -->
+</div>
+
+
+
+<footer><p>v1.2.5</p></footer>
+
+
+
+
+
+
+
+</body>
+</html>
